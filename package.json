@@ -1,0 +1,25 @@
+{
+  "name": "wombot",
+  "version": "1.0.0",
+  "description": "Wombot is a discord bot that communicates with Faceit API to illustrate player statistics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Sunquist#1337",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/collection": "^0.4.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.1",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.6",
+    "nodemon": "^2.0.15",
+    "uuid": "^7.0.3"
+  }
+}
